@@ -1,0 +1,45 @@
+Puntos fuertes:
+
+-La base de datos
+esta muy bien gestionada y todos los cambios repercuten directamente en 
+la web si fuera necesario (para cuando se haga la pagina de administrador)
+Los tipos de datos tienen una importante funcion aqui
+el numero de reserva se crea al instante en que el usuario hace la reserva
+y es un codigo unico que consta de 36 digitos alfanumericos 
+el estado de la reserva es de tipo booleano y controla algo tan importante 
+como el estado en que se encuentra la reserva, algo como un 1 o un 0 hace que 
+pueda estar visible o no
+
+-Las reservas son importantes
+hay un buen control en como se hacen las reservas y
+las cuentan una serie de restricciones que se ven reflejadas en 
+un buen control del back-end donde las funciones hacen unas buenas comprobaciones
+para que no haya ningun error ni problema a la hora de reservar
+La reserva tienen un numero UNICO que se envia por correo para e usuario
+
+-Las cancelaciones
+tienen un control menos exaustivo que las reservas
+pero aun asi cuentan con una serie de comprobaciones para que el usuario no 
+se pueda equivocar
+si el usuario quiere cancelar su reserva solo tiene que revisar el correo 
+que ha recibido, copiar el codigo y junto con su email puede realizar la cancelacion
+en cuestion de segundos
+
+-Diseño simple y agradable
+los colores de la pagina hacen que el usuario no se vea molesto por tonos demasiado claros
+las transiciones son suabes y elegantes acompañan las interacciones por toda la pagina web
+
+-Secciones de ayuda
+El usuario cuenta con una seccion de preguntas tipicas con sus respectivas respuestas
+y una pagina de contacto donde puede escribir un correo directamente al email de la pagina
+web con dudas, problemas o sugerencias que puedan surgir
+
+-Otros datos de interes
+El front-end de la pagina esta hecho con estilos CSS, SCSS, JavaScript y Bootstrap
+El back-end esta gestionado por PHP y un poco de JavaScript
+La base de datos es MariaDB
+Protocolos que han ayudado a mi proyecto como FTP para transferir archivos entre el servidor y mi 
+ordenador, y SMTP para el envio de correos desde mi pagina web a los usuarios
+Para el futuro se podria implementar la pagina que no pude acabar de Administrador 
+donde poder gestionar la pagina sin problemas
+
